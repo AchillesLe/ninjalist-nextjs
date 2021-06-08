@@ -5,6 +5,7 @@ const NotFound = () => {
     const router = useRouter()
     useEffect(() => {
         setTimeout(() => {
+            // check if current page is 404 page
             router.push('/')
         }, 3000)
     }, [])
